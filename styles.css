@@ -1,0 +1,35 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    /* Changed to a modern font */
+    background: linear-gradient(135deg, #67a1f8, #56eb87);
+    /* Gradient background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #1b1b1b;
+}
+
+/* Form Container */
+form {
+    background-color: #ecf38a;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    transition: transform 0.3s ease;
+}
+
+form:hover {
+    transform: translateY(-5px);
+    /* Slight hover effect */
+}
+
+/* Form Heading */
+h1 {
+    text-align: center;
+    color: #444;
+    font-size: 24px; /* Added missing font-size value and semicolon */
+}
